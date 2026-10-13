@@ -17,7 +17,7 @@
 
 **DD-MB** is a Computer-Assisted Train Notification (dispatch) system for modular model railroad operations. It runs as a self-hosted web application and lets stations communicate train movements in real time — ideal for club layouts, modular meets, and multi-station model railway sessions.
 
-A dispatcher at each station tracks blocks, offers and accepts incoming/outgoing trains, manages extra and pass-through traffic, and follows graphical timetables. A separate, simplified driver view is available for end stations, designed for quick, low-friction operation by a train's "driver."
+A dispatcher operates station, manages train offers, incoming/outgoing trains and follows graphical timetables. A separate, simplified driver view is available for end stations, designed for quick, low-friction operation by a train's "driver."
 
 ### Features
 
@@ -49,6 +49,8 @@ start.sh / start.bat       Platform start scripts
 2. Run `install.sh` (macOS/Linux) or `install.bat` (Windows) — this installs Node.js if needed and all dependencies.
 3. Run `start.sh` (macOS/Linux) or `start.bat` (Windows) to launch the server.
 4. Open the printed URL in a browser on each station's device.
+
+> **Note:** To use DD-MB during a railway session, every station needs a device with a web browser (e.g. a laptop, tablet, or phone) connected to the same network as the server.
 
 For detailed requirements, manual setup, and troubleshooting, see the **[Installation Guide](./docs/INSTALL.md)**.
 
@@ -89,7 +91,7 @@ See **[LICENSE.md](./LICENSE.md)** for license terms, and **[CREDITS.md](./CREDI
 
 **DD-MB** je systém počítačem asistované výpravy vlaků (Computer-Assisted Train Notification) pro provoz modulové modelové železnice. Běží jako webová aplikace a umožňuje stanicím komunikovat pohyby vlaků v reálném čase — ideální pro klubová kolejiště, modulová setkání i vícestaniční modelové provozy.
 
-Výpravčí na každé stanici sleduje bloky, nabízí a přijímá příchozí/odchozí vlaky, obsluhuje mimořádné a průjezdné vlaky a sleduje grafické jízdní řády. Pro koncové stanice je k dispozici samostatný zjednodušený pohled strojvedoucího, navržený pro rychlou obsluhu s minimem kroků.
+Výpravčí obsluhuje stanici, spravuje nabídky vlaků, příchozí/odchozí vlaky a sleduje grafické jízdní řády. Pro koncové stanice je k dispozici samostatný zjednodušený pohled strojvedoucího, navržený pro rychlou obsluhu s minimem kroků.
 
 ### Funkce
 
@@ -99,7 +101,7 @@ Výpravčí na každé stanici sleduje bloky, nabízí a přijímá příchozí/
 - **Grafické jízdní řády** pro plánování a sledování plánovaných oběhů.
 - **Turnusy** — přiřazování strojvedoucích k oběhům, příprava dalšího modelového dne dopředu a sledování statistik strojvedoucích a turnusů.
 - **Administrace** — správa stanic, jízdních řádů, uživatelů a dalších celoserverových nastavení, včetně importu/exportu kolejiště.
-- **Vícejazyčné rozhraní** — angličtina, čeština, slovenčina, polština, němčina a maďarština.
+- **Vícejazyčné rozhraní** — angličtina, čeština, slovenština, polština, němčina a maďarština.
 - **Světlý i tmavý motiv.**
 
 ### Struktura repozitáře
@@ -121,6 +123,8 @@ start.sh / start.bat       Spouštěcí skripty pro jednotlivé platformy
 2. Spusťte `install.sh` (macOS/Linux) nebo `install.bat` (Windows) — tím se podle potřeby nainstaluje Node.js a všechny závislosti.
 3. Spusťte `start.sh` (macOS/Linux) nebo `start.bat` (Windows) pro spuštění serveru.
 4. Na zařízení každé stanice otevřete v prohlížeči vypsanou adresu.
+
+> **Poznámka:** Pro použití DD-MB při provozu na kolejišti potřebuje každá stanice zařízení s webovým prohlížečem (např. notebook, tablet nebo telefon) připojené do stejné sítě jako server.
 
 Podrobné požadavky, ruční instalaci a řešení problémů najdete v **[Instalační příručce](./docs/INSTALL.md)**.
 
@@ -161,7 +165,7 @@ Licenční podmínky najdete v **[LICENSE.md](./LICENSE.md)** a seznam použitý
 
 **DD-MB** je systém počítačom asistovanej výpravy vlakov (Computer-Assisted Train Notification) pre prevádzku modulovej modelovej železnice. Beží ako webová aplikácia a umožňuje staniciam komunikovať pohyby vlakov v reálnom čase — ideálne pre klubové koľajiská, modulové stretnutia i viacstaničné modelové prevádzky.
 
-Výpravca na každej stanici sleduje bloky, ponúka a prijíma prichádzajúce/odchádzajúce vlaky, obsluhuje mimoriadne a prejazdné vlaky a sleduje grafické cestovné poriadky. Pre koncové stanice je k dispozícii samostatný zjednodušený pohľad rušňovodiča, navrhnutý pre rýchlu obsluhu s minimom krokov.
+Výpravca obsluhuje stanicu, spravuje ponuky vlakov, prichádzajúce/odchádzajúce vlaky a sleduje grafické cestovné poriadky. Pre koncové stanice je k dispozícii samostatný zjednodušený pohľad rušňovodiča, navrhnutý pre rýchlu obsluhu s minimom krokov.
 
 ### Funkcie
 
@@ -193,6 +197,8 @@ start.sh / start.bat       Spúšťacie skripty pre jednotlivé platformy
 2. Spustite `install.sh` (macOS/Linux) alebo `install.bat` (Windows) — tým sa podľa potreby nainštaluje Node.js a všetky závislosti.
 3. Spustite `start.sh` (macOS/Linux) alebo `start.bat` (Windows) na spustenie servera.
 4. Na zariadení každej stanice otvorte v prehliadači vypísanú adresu.
+
+> **Poznámka:** Na použitie DD-MB počas prevádzky na koľajisku potrebuje každá stanica zariadenie s webovým prehliadačom (napr. notebook, tablet alebo telefón) pripojené do rovnakej siete ako server.
 
 Podrobné požiadavky, manuálnu inštaláciu a riešenie problémov nájdete v **[Inštalačnej príručke](./docs/INSTALL.md)**.
 
@@ -233,7 +239,7 @@ Licenčné podmienky nájdete v **[LICENSE.md](./LICENSE.md)** a zoznam použit�
 
 **DD-MB** to system wspomaganej komputerowo sygnalizacji ruchu pociągów (Computer-Assisted Train Notification) do obsługi modułowej kolei modelowej. Działa jako aplikacja webowa i pozwala stacjom komunikować ruchy pociągów w czasie rzeczywistym — idealne dla układów klubowych, spotkań modułowych i sesji z wieloma stacjami.
 
-Dyżurny ruchu na każdej stacji śledzi bloki, oferuje i przyjmuje pociągi przychodzące/wychodzące, obsługuje pociągi dodatkowe i przejazdowe oraz śledzi graficzne rozkłady jazdy. Dla stacji końcowych dostępny jest osobny, uproszczony widok maszynisty, zaprojektowany do szybkiej obsługi przy minimalnej liczbie kroków.
+Dyżurny ruchu obsługuje stację, zarządza ofertami pociągów, pociągami przychodzącymi/wychodzącymi oraz śledzi graficzne rozkłady jazdy. Dla stacji końcowych dostępny jest osobny, uproszczony widok maszynisty, zaprojektowany do szybkiej obsługi przy minimalnej liczbie kroków.
 
 ### Funkcje
 
@@ -265,6 +271,8 @@ start.sh / start.bat       Skrypty uruchamiające dla poszczególnych platform
 2. Uruchom `install.sh` (macOS/Linux) lub `install.bat` (Windows) — zainstaluje to Node.js (jeśli potrzeba) i wszystkie zależności.
 3. Uruchom `start.sh` (macOS/Linux) lub `start.bat` (Windows), aby uruchomić serwer.
 4. Otwórz wyświetlony adres w przeglądarce na urządzeniu każdej stacji.
+
+> **Uwaga:** Aby korzystać z DD-MB podczas sesji na kolei, każda stacja potrzebuje urządzenia z przeglądarką internetową (np. laptopa, tabletu lub telefonu) podłączonego do tej samej sieci co serwer.
 
 Szczegółowe wymagania, ręczną instalację i rozwiązywanie problemów znajdziesz w **[Instrukcji instalacji](./docs/INSTALL.md)**.
 
@@ -305,7 +313,7 @@ Warunki licencji znajdują się w **[LICENSE.md](./LICENSE.md)**, a lista wykorz
 
 **DD-MB** ist ein computergestütztes Zugmeldesystem (Computer-Assisted Train Notification) für den Betrieb modularer Modelleisenbahnen. Es läuft als Webanwendung und ermöglicht Stationen, Zugbewegungen in Echtzeit zu kommunizieren — ideal für Vereinsanlagen, Modultreffen und Sitzungen mit mehreren Stationen.
 
-Ein Fahrdienstleiter an jeder Station verfolgt Blöcke, bietet ankommende/abgehende Züge an und nimmt sie an, verwaltet Sonderzüge und durchfahrende Züge und folgt grafischen Fahrplänen. Für Endstationen steht eine separate, vereinfachte Triebfahrzeugführer-Ansicht zur Verfügung, die für eine schnelle Bedienung mit minimalem Aufwand ausgelegt ist.
+Ein Fahrdienstleiter bedient die Station, verwaltet Zugangebote, ankommende/abgehende Züge und folgt grafischen Fahrplänen. Für Endstationen steht eine separate, vereinfachte Triebfahrzeugführer-Ansicht zur Verfügung, die für eine schnelle Bedienung mit minimalem Aufwand ausgelegt ist.
 
 ### Funktionen
 
@@ -337,6 +345,8 @@ start.sh / start.bat       Startskripte je Plattform
 2. Führen Sie `install.sh` (macOS/Linux) oder `install.bat` (Windows) aus — dies installiert bei Bedarf Node.js und alle Abhängigkeiten.
 3. Führen Sie `start.sh` (macOS/Linux) oder `start.bat` (Windows) aus, um den Server zu starten.
 4. Öffnen Sie die ausgegebene Adresse im Browser auf dem Gerät jeder Station.
+
+> **Hinweis:** Um DD-MB bei einer Betriebssitzung zu nutzen, benötigt jede Station ein Gerät mit Webbrowser (z. B. Laptop, Tablet oder Smartphone), das sich im selben Netzwerk wie der Server befindet.
 
 Detaillierte Anforderungen, die manuelle Installation und Fehlerbehebung finden Sie in der **[Installationsanleitung](./docs/INSTALL.md)**.
 
@@ -377,7 +387,7 @@ Die Lizenzbedingungen finden Sie in **[LICENSE.md](./LICENSE.md)** und die Liste
 
 A **DD-MB** egy számítógéppel támogatott vonatértesítő (Computer-Assisted Train Notification) rendszer moduláris modellvasúti üzemeltetéshez. Webalkalmazásként fut, és lehetővé teszi, hogy az állomások valós időben kommunikálják a vonatmozgásokat — ideális klubpályákhoz, moduláris találkozókhoz és több állomásos modellvasúti üzemekhez.
 
-Minden állomáson a forgalomirányító követi a blokkokat, felajánlja és elfogadja az érkező/induló vonatokat, kezeli a rendkívüli és áthaladó vonatokat, valamint követi a grafikus menetrendeket. A végállomásokhoz külön, egyszerűsített mozdonyvezetői nézet áll rendelkezésre, amelyet gyors, minimális lépésszámú kezelésre terveztek.
+A forgalomirányító kezeli az állomást, a vonatajánlatokat, az érkező/induló vonatokat, és követi a grafikus menetrendeket. A végállomásokhoz külön, egyszerűsített mozdonyvezetői nézet áll rendelkezésre, amelyet gyors, minimális lépésszámú kezelésre terveztek.
 
 ### Funkciók
 
@@ -409,6 +419,8 @@ start.sh / start.bat       Platformonkénti indítószkriptek
 2. Futtassa az `install.sh` (macOS/Linux) vagy az `install.bat` (Windows) szkriptet — ez szükség esetén telepíti a Node.js-t és minden függőséget.
 3. Futtassa a `start.sh` (macOS/Linux) vagy a `start.bat` (Windows) szkriptet a szerver elindításához.
 4. Minden állomás eszközén nyissa meg a kiírt címet a böngészőben.
+
+> **Megjegyzés:** A DD-MB üzemeltetési munkamenet alatti használatához minden állomásnak szüksége van egy webböngészővel rendelkező eszközre (pl. laptop, tablet vagy telefon), amely ugyanahhoz a hálózathoz csatlakozik, mint a szerver.
 
 A részletes követelményekért, a manuális telepítésért és a hibaelhárításért lásd a **[Telepítési útmutatót](./docs/INSTALL.md)**.
 

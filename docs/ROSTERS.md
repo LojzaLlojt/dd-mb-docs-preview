@@ -19,7 +19,7 @@ This document describes how to use the **Rosters** feature of DD-MB. Rosters are
 
 ### Step 1 — Import Circulations
 
-Before using Rosters, import the *drivers.svg* file in the admin portal (see **INITIAL_SETUP.md**, Step 5). This populates the Rosters with all circulations and their associated trains.
+Before using Rosters, import the rosters SVG export file in the admin portal (see **INITIAL_SETUP.md**, Step 5). This populates the Rosters with all circulations and their associated trains.
 
 ### Step 2 — Assigning a Driver
 
@@ -72,7 +72,7 @@ Tento dokument popisuje, jak používat funkci **Turnusy** v DD-MB. Turnusy jsou
 
 ### Krok 1 — Import oběhů
 
-Před použitím Turnusů importujte soubor *drivers.svg* v administrátorském portálu (viz **INITIAL_SETUP.md**, Krok 5). Tím se Turnusy naplní všemi oběhy a jejich vlaky.
+Před použitím Turnusů importujte soubor s SVG exportem turnusů v administrátorském portálu (viz **INITIAL_SETUP.md**, Krok 5). Tím se Turnusy naplní všemi oběhy a jejich vlaky.
 
 ### Krok 2 — Přiřazení strojvedoucího
 
@@ -125,7 +125,7 @@ Tento dokument opisuje, ako používať funkciu **Turnusy** v DD-MB. Turnusy sú
 
 ### Krok 1 — Import obehov
 
-Pred použitím Turnusov importujte súbor *drivers.svg* v administrátorskom portáli (pozri **INITIAL_SETUP.md**, Krok 5). Tým sa Turnusy naplnia všetkými obehmi a ich vlakmi.
+Pred použitím Turnusov importujte súbor s SVG exportom turnusov v administrátorskom portáli (pozri **INITIAL_SETUP.md**, Krok 5). Tým sa Turnusy naplnia všetkými obehmi a ich vlakmi.
 
 ### Krok 2 — Priradenie rušňovodiča
 
@@ -178,7 +178,7 @@ Niniejszy dokument opisuje, jak korzystać z funkcji **Turnus** w DD-MB. Turnusy
 
 ### Krok 1 — Import obiegów
 
-Przed użyciem Turnusów zaimportuj plik *drivers.svg* w portalu administratora (patrz **INITIAL_SETUP.md**, Krok 5). Spowoduje to wypełnienie Turnusów wszystkimi obiegami i ich pociągami.
+Przed użyciem Turnusów zaimportuj plik eksportu SVG turnusów w portalu administratora (patrz **INITIAL_SETUP.md**, Krok 5). Spowoduje to wypełnienie Turnusów wszystkimi obiegami i ich pociągami.
 
 ### Krok 2 — Przypisanie maszynisty
 
@@ -231,7 +231,7 @@ Dieses Dokument beschreibt die Verwendung der **Turnusse**-Funktion in DD-MB. Tu
 
 ### Schritt 1 — Umläufe importieren
 
-Importieren Sie vor der Verwendung von Turnussen die Datei *drivers.svg* im Admin-Portal (siehe **INITIAL_SETUP.md**, Schritt 5). Dadurch werden die Turnusse mit allen Umläufen und den zugehörigen Zügen befüllt.
+Importieren Sie vor der Verwendung von Turnussen die SVG-Exportdatei der Turnusse im Admin-Portal (siehe **INITIAL_SETUP.md**, Schritt 5). Dadurch werden die Turnusse mit allen Umläufen und den zugehörigen Zügen befüllt.
 
 ### Schritt 2 — Triebfahrzeugführer zuweisen
 
@@ -284,7 +284,7 @@ Ez a dokumentum leírja a **Turnusok** funkció használatát a DD-MB rendszerbe
 
 ### 1. lépés — Körök importálása
 
-A Turnusok használata előtt importálja a *drivers.svg* fájlt az adminisztrátori portálon (lásd **INITIAL_SETUP.md**, 5. lépés). Ezzel a Turnusok feltöltődnek az összes körrel és az azokhoz tartozó vonatokkal.
+A Turnusok használata előtt importálja a turnusok SVG-exportfájlját az adminisztrátori portálon (lásd **INITIAL_SETUP.md**, 5. lépés). Ezzel a Turnusok feltöltődnek az összes körrel és az azokhoz tartozó vonatokkal.
 
 ### 2. lépés — Mozdonyvezető hozzárendelése
 

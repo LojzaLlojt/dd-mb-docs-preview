@@ -92,7 +92,7 @@ This is useful at the beginning of an event to skip past midnight trains that wo
 Controls the DD-MB internal clock — used when DD-MB is not synchronised to an external time source.
 
 - **Initial time** – the starting time when the layout is loaded or reset.
-- **Speed** – playback speed from 0.5× to 4× in 0.5× steps.
+- **Speed** – playback speed from 0.5× to 10× in 0.5× steps.
 - Changes take effect immediately and are reflected in all dispatcher views.
 
 ---
@@ -243,7 +243,7 @@ Umožňuje přejít na konkrétní modelový čas (formát `HH:MM`). Vlaky, jeji
 Ovládá interní hodiny DD-MB, pokud není synchronizace s externím zdrojem.
 
 - **Počáteční čas** – čas při načtení nebo resetu layoutu.
-- **Rychlost** – přehrávací rychlost od 0,5× do 4× s krokem 0,5×.
+- **Rychlost** – přehrávací rychlost od 0,5× do 10× s krokem 0,5×.
 
 ---
 
@@ -373,7 +373,7 @@ Umožňuje prejsť na konkrétny modelový čas (formát `HH:MM`). Vlaky, ktorý
 
 ### Modelový čas
 
-Ovláda interné hodiny DD-MB. Nastavte počiatočný čas a rýchlosť prehrávania (0,5× – 4×).
+Ovláda interné hodiny DD-MB. Nastavte počiatočný čas a rýchlosť prehrávania (0,5× – 10×).
 
 ---
 
@@ -499,7 +499,7 @@ Umożliwia przejście do konkretnego czasu modelowego (format `HH:MM`). Pociągi
 
 ### Czas modelowy
 
-Steruje wewnętrznym zegarem DD-MB. Ustaw czas startowy i prędkość odtwarzania (0,5× – 4×).
+Steruje wewnętrznym zegarem DD-MB. Ustaw czas startowy i prędkość odtwarzania (0,5× – 10×).
 
 ---
 
@@ -625,7 +625,7 @@ Ermöglicht das Vorrücken auf eine bestimmte Modellzeit (Format `HH:MM`). Züge
 
 ### Modellzeit
 
-Steuert die interne Uhr von DD-MB. Stellen Sie Startzeit und Wiedergabegeschwindigkeit (0,5× – 4×) ein.
+Steuert die interne Uhr von DD-MB. Stellen Sie Startzeit und Wiedergabegeschwindigkeit (0,5× – 10×) ein.
 
 ---
 
@@ -751,7 +751,7 @@ Lehetővé teszi egy adott modellidőre (formátum: `HH:MM`) való ugrást. Az i
 
 ### Modellszemléleti idő
 
-A DD-MB belső óráját vezérli. Állítsa be a kezdési időt és a lejátszási sebességet (0,5× – 4×).
+A DD-MB belső óráját vezérli. Állítsa be a kezdési időt és a lejátszási sebességet (0,5× – 10×).
 
 ---
 
